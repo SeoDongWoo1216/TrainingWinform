@@ -1,0 +1,7 @@
+C:\SRC\TrainingWinform\execptionTestApp\bin\Debug\execptionTestApp.exe.config
+C:\SRC\TrainingWinform\execptionTestApp\bin\Debug\execptionTestApp.exe
+C:\SRC\TrainingWinform\execptionTestApp\bin\Debug\execptionTestApp.pdb
+C:\SRC\TrainingWinform\execptionTestApp\obj\Debug\execptionTestApp.csprojAssemblyReference.cache
+C:\SRC\TrainingWinform\execptionTestApp\obj\Debug\execptionTestApp.csproj.CoreCompileInputs.cache
+C:\SRC\TrainingWinform\execptionTestApp\obj\Debug\execptionTestApp.exe
+C:\SRC\TrainingWinform\execptionTestApp\obj\Debug\execptionTestApp.pdb
