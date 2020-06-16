@@ -1,0 +1,10 @@
+C:\SRC\TrainingWinform\ButtonTestApp\bin\Debug\ButtonTestApp.exe.config
+C:\SRC\TrainingWinform\ButtonTestApp\bin\Debug\ButtonTestApp.exe
+C:\SRC\TrainingWinform\ButtonTestApp\bin\Debug\ButtonTestApp.pdb
+C:\SRC\TrainingWinform\ButtonTestApp\obj\Debug\ButtonTestApp.csprojAssemblyReference.cache
+C:\SRC\TrainingWinform\ButtonTestApp\obj\Debug\ButtonTestApp.MainForm.resources
+C:\SRC\TrainingWinform\ButtonTestApp\obj\Debug\ButtonTestApp.Properties.Resources.resources
+C:\SRC\TrainingWinform\ButtonTestApp\obj\Debug\ButtonTestApp.csproj.GenerateResource.cache
+C:\SRC\TrainingWinform\ButtonTestApp\obj\Debug\ButtonTestApp.csproj.CoreCompileInputs.cache
+C:\SRC\TrainingWinform\ButtonTestApp\obj\Debug\ButtonTestApp.exe
+C:\SRC\TrainingWinform\ButtonTestApp\obj\Debug\ButtonTestApp.pdb

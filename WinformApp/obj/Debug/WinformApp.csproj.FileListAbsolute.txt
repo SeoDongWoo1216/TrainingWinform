@@ -1,0 +1,10 @@
+C:\SRC\TrainingWinform\WinformApp\bin\Debug\WinformApp.exe.config
+C:\SRC\TrainingWinform\WinformApp\bin\Debug\WinformApp.exe
+C:\SRC\TrainingWinform\WinformApp\bin\Debug\WinformApp.pdb
+C:\SRC\TrainingWinform\WinformApp\obj\Debug\WinformApp.csprojAssemblyReference.cache
+C:\SRC\TrainingWinform\WinformApp\obj\Debug\WinformApp.MainForm.resources
+C:\SRC\TrainingWinform\WinformApp\obj\Debug\WinformApp.Properties.Resources.resources
+C:\SRC\TrainingWinform\WinformApp\obj\Debug\WinformApp.csproj.GenerateResource.cache
+C:\SRC\TrainingWinform\WinformApp\obj\Debug\WinformApp.csproj.CoreCompileInputs.cache
+C:\SRC\TrainingWinform\WinformApp\obj\Debug\WinformApp.exe
+C:\SRC\TrainingWinform\WinformApp\obj\Debug\WinformApp.pdb
