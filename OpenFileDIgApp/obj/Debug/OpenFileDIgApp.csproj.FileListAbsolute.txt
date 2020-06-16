@@ -1,0 +1,10 @@
+C:\SRC\TrainingWinform\OpenFileDIgApp\obj\Debug\OpenFileDIgApp.csprojAssemblyReference.cache
+C:\SRC\TrainingWinform\OpenFileDIgApp\obj\Debug\OpenFileDIgApp.Form1.resources
+C:\SRC\TrainingWinform\OpenFileDIgApp\obj\Debug\OpenFileDIgApp.Properties.Resources.resources
+C:\SRC\TrainingWinform\OpenFileDIgApp\obj\Debug\OpenFileDIgApp.csproj.GenerateResource.cache
+C:\SRC\TrainingWinform\OpenFileDIgApp\obj\Debug\OpenFileDIgApp.csproj.CoreCompileInputs.cache
+C:\SRC\TrainingWinform\OpenFileDIgApp\bin\Debug\OpenFileDIgApp.exe.config
+C:\SRC\TrainingWinform\OpenFileDIgApp\bin\Debug\OpenFileDIgApp.exe
+C:\SRC\TrainingWinform\OpenFileDIgApp\bin\Debug\OpenFileDIgApp.pdb
+C:\SRC\TrainingWinform\OpenFileDIgApp\obj\Debug\OpenFileDIgApp.exe
+C:\SRC\TrainingWinform\OpenFileDIgApp\obj\Debug\OpenFileDIgApp.pdb
