@@ -1,0 +1,10 @@
+C:\SRC\TrainingWinform\LoginApp\bin\Debug\LoginApp.exe.config
+C:\SRC\TrainingWinform\LoginApp\bin\Debug\LoginApp.exe
+C:\SRC\TrainingWinform\LoginApp\bin\Debug\LoginApp.pdb
+C:\SRC\TrainingWinform\LoginApp\obj\Debug\LoginApp.csprojAssemblyReference.cache
+C:\SRC\TrainingWinform\LoginApp\obj\Debug\LoginApp.Form1.resources
+C:\SRC\TrainingWinform\LoginApp\obj\Debug\LoginApp.Properties.Resources.resources
+C:\SRC\TrainingWinform\LoginApp\obj\Debug\LoginApp.csproj.GenerateResource.cache
+C:\SRC\TrainingWinform\LoginApp\obj\Debug\LoginApp.csproj.CoreCompileInputs.cache
+C:\SRC\TrainingWinform\LoginApp\obj\Debug\LoginApp.exe
+C:\SRC\TrainingWinform\LoginApp\obj\Debug\LoginApp.pdb

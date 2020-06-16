@@ -1,0 +1,11 @@
+C:\SRC\TrainingWinform\ModalDlgApp\bin\Debug\ModalDlgApp.exe.config
+C:\SRC\TrainingWinform\ModalDlgApp\bin\Debug\ModalDlgApp.exe
+C:\SRC\TrainingWinform\ModalDlgApp\bin\Debug\ModalDlgApp.pdb
+C:\SRC\TrainingWinform\ModalDlgApp\obj\Debug\ModalDlgApp.csprojAssemblyReference.cache
+C:\SRC\TrainingWinform\ModalDlgApp\obj\Debug\ModalDlgApp.Form1.resources
+C:\SRC\TrainingWinform\ModalDlgApp\obj\Debug\ModalDlgApp.Form2.resources
+C:\SRC\TrainingWinform\ModalDlgApp\obj\Debug\ModalDlgApp.Properties.Resources.resources
+C:\SRC\TrainingWinform\ModalDlgApp\obj\Debug\ModalDlgApp.csproj.GenerateResource.cache
+C:\SRC\TrainingWinform\ModalDlgApp\obj\Debug\ModalDlgApp.csproj.CoreCompileInputs.cache
+C:\SRC\TrainingWinform\ModalDlgApp\obj\Debug\ModalDlgApp.exe
+C:\SRC\TrainingWinform\ModalDlgApp\obj\Debug\ModalDlgApp.pdb
