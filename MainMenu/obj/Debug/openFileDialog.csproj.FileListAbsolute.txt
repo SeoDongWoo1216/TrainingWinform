@@ -1,0 +1,11 @@
+C:\Users\admin\source\repos\openFileDialog\bin\Debug\openFileDialog.exe.config
+C:\Users\admin\source\repos\openFileDialog\bin\Debug\openFileDialog.exe
+C:\Users\admin\source\repos\openFileDialog\bin\Debug\openFileDialog.pdb
+C:\Users\admin\source\repos\openFileDialog\obj\Debug\openFileDialog.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\openFileDialog\obj\Debug\openFileDialog.Form1.resources
+C:\Users\admin\source\repos\openFileDialog\obj\Debug\openFileDialog.Properties.Resources.resources
+C:\Users\admin\source\repos\openFileDialog\obj\Debug\openFileDialog.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\openFileDialog\obj\Debug\openFileDialog.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\openFileDialog\obj\Debug\openFileDialog.exe
+C:\Users\admin\source\repos\openFileDialog\obj\Debug\openFileDialog.pdb
+C:\Users\admin\source\repos\openFileDialog\obj\Debug\openFileDialog.AboutBox.resources

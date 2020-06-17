@@ -1,0 +1,11 @@
+C:\SRC\TrainingWinform\MainMenu\bin\Debug\openFileDialog.exe.config
+C:\SRC\TrainingWinform\MainMenu\bin\Debug\openFileDialog.exe
+C:\SRC\TrainingWinform\MainMenu\bin\Debug\openFileDialog.pdb
+C:\SRC\TrainingWinform\MainMenu\obj\Debug\MainMenu.csprojAssemblyReference.cache
+C:\SRC\TrainingWinform\MainMenu\obj\Debug\openFileDialog.AboutBox.resources
+C:\SRC\TrainingWinform\MainMenu\obj\Debug\openFileDialog.Form1.resources
+C:\SRC\TrainingWinform\MainMenu\obj\Debug\openFileDialog.Properties.Resources.resources
+C:\SRC\TrainingWinform\MainMenu\obj\Debug\MainMenu.csproj.GenerateResource.cache
+C:\SRC\TrainingWinform\MainMenu\obj\Debug\MainMenu.csproj.CoreCompileInputs.cache
+C:\SRC\TrainingWinform\MainMenu\obj\Debug\openFileDialog.exe
+C:\SRC\TrainingWinform\MainMenu\obj\Debug\openFileDialog.pdb

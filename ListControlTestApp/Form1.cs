@@ -40,5 +40,14 @@ namespace ListControlTestApp
         {
             label2.Text = comboBox1.SelectedItem.ToString();
         }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(e.KeyChar == 13)
+            {
+                button1_Click(sender, new EventArgs());
+            }
+        }
     }
+    
 }
