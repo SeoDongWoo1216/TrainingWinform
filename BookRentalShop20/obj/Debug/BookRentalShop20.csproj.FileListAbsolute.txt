@@ -1,0 +1,15 @@
+C:\SRC\TrainingWinform\BookRentalShop20\bin\Debug\BookRentalShop20.exe.config
+C:\SRC\TrainingWinform\BookRentalShop20\bin\Debug\BookRentalShop20.exe
+C:\SRC\TrainingWinform\BookRentalShop20\bin\Debug\BookRentalShop20.pdb
+C:\SRC\TrainingWinform\BookRentalShop20\obj\Debug\BookRentalShop20.Properties.Resources.resources
+C:\SRC\TrainingWinform\BookRentalShop20\obj\Debug\BookRentalShop20.csproj.GenerateResource.cache
+C:\SRC\TrainingWinform\BookRentalShop20\obj\Debug\BookRentalShop20.csproj.CoreCompileInputs.cache
+C:\SRC\TrainingWinform\BookRentalShop20\obj\Debug\BookRentalShop20.exe
+C:\SRC\TrainingWinform\BookRentalShop20\obj\Debug\BookRentalShop20.pdb
+C:\SRC\TrainingWinform\BookRentalShop20\bin\Debug\MetroFramework.Design.dll
+C:\SRC\TrainingWinform\BookRentalShop20\bin\Debug\MetroFramework.dll
+C:\SRC\TrainingWinform\BookRentalShop20\bin\Debug\MetroFramework.Fonts.dll
+C:\SRC\TrainingWinform\BookRentalShop20\obj\Debug\BookRentalShop20.csprojAssemblyReference.cache
+C:\SRC\TrainingWinform\BookRentalShop20\obj\Debug\BookRentalShop20.LoginForm.resources
+C:\SRC\TrainingWinform\BookRentalShop20\obj\Debug\BookRentalShop20.MainForm.resources
+C:\SRC\TrainingWinform\BookRentalShop20\obj\Debug\BookRentalShop20.csproj.CopyComplete
