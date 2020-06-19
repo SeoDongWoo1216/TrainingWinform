@@ -16,7 +16,8 @@ namespace BookRentalShop20
 {
     public partial class LoginForm : MetroForm
     {
-        string strConnString = "Data Source=192.168.0.124;Initial Catalog=BookRentalShopDB;Persist Security Info=True;User ID=sa;Password=p@ssw0rd!"; //  
+        string strConnString = "Data Source=192.168.0.124;Initial Catalog=BookRentalShopDB;Persist Security Info=True;User ID=sa;Password=p@ssw0rd!";
+        string mode = "";
         public LoginForm()
         {
             InitializeComponent();
@@ -66,33 +67,53 @@ namespace BookRentalShop20
 
             string struserID = string.Empty;
 
-            using (SqlConnection conn = new SqlConnection(strConnString))  // strConnStiring의 출처가 알고싶으면 커서를 두고 정의로 이동 또는 F12를 누른다
+            try
             {
-                conn.Open();
-                SqlCommand cmd = new SqlCommand();
-                cmd.Connection = conn;
-                cmd.CommandText = "SELECT userID FROm userTbl " +
-                                  " WHERE userID = @userID " +
-                                  "   AND password = @password ";     // sql 명령문 입력(이 구문만 입력하면 Sql 인젝션으로 해킹당할 수 있으므로 밑의 구문도 입력해준다)
+                using (SqlConnection conn = new SqlConnection(strConnString))  // strConnStiring의 출처가 알고싶으면 커서를 두고 정의로 이동 또는 F12를 누른다
+                {
+                    conn.Open();
+                    SqlCommand cmd = new SqlCommand();
+                    cmd.Connection = conn;
+                    cmd.CommandText = "SELECT userID FROm userTbl " +
+                                      " WHERE userID = @userID " +
+                                      "   AND password = @password ";     // sql 명령문 입력(이 구문만 입력하면 Sql 인젝션으로 해킹당할 수 있으므로 밑의 구문도 입력해준다)
 
-                // ID
-                SqlParameter parmUserId = new SqlParameter("@userID", SqlDbType.VarChar, 12);
-                //DB userID라는 필드가 varchar(12)로 지정되어있어서 지정
-                parmUserId.Value = txtId.Text;
-                cmd.Parameters.Add(parmUserId);
+                    // ID
+                    SqlParameter parmUserId = new SqlParameter("@userID", SqlDbType.VarChar, 12);
+                    //DB userID라는 필드가 varchar(12)로 지정되어있어서 지정
+                    parmUserId.Value = txtId.Text;
+                    cmd.Parameters.Add(parmUserId);
 
-                // 패스워드
-                SqlParameter parmUserPassword = new SqlParameter("@password", SqlDbType.VarChar, 20);
-                parmUserPassword.Value = txtPassword.Text;
-                cmd.Parameters.Add(parmUserPassword);
+                    // 패스워드
+                    SqlParameter parmUserPassword = new SqlParameter("@password", SqlDbType.VarChar, 20);
+                    parmUserPassword.Value = txtPassword.Text;
+                    cmd.Parameters.Add(parmUserPassword);
 
-                SqlDataReader reader = cmd.ExecuteReader();
-                reader.Read(); // sql 데이터를 읽음
-                struserID = reader["userID"].ToString();  // 돌려받는 값이라서 @userID가 아니라 userID이다.
+                    SqlDataReader reader = cmd.ExecuteReader();
+                    reader.Read(); // sql 데이터를 읽음
+                    struserID = reader["userID"] != null ? reader["userID"].ToString() : "";
 
-                MetroMessageBox.Show(this, "접속성공", "로그인");
-                Debug.WriteLine("On the Debug");
+                    if (struserID != "")
+                    {
+                        MetroMessageBox.Show(this, "접속성공", "로그인 성공");
+                        this.Close();   // 로그인 성공하면 창을없애고 메인창을 띄움
+                    }
+                    else
+                    {
+                        MetroMessageBox.Show(this, "접속실패", "로그인 실패",
+                            MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+
+                    //Debug.WriteLine("On the Debug");
+                }
             }
+            catch (Exception ex)
+            {
+                MetroMessageBox.Show(this, $"Error : {ex.StackTrace}", "오류",
+                     MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            
         }
     }
 }

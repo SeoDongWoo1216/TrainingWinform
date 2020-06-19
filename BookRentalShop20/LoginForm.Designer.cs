@@ -107,6 +107,7 @@
             this.Controls.Add(this.label1);
             this.Name = "LoginForm";
             this.Text = "Login";
+            this.TransparencyKey = System.Drawing.Color.Empty;
             this.ResumeLayout(false);
             this.PerformLayout();
 
