@@ -1,13 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
-using System.Diagnostics;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using MetroFramework;
 using MetroFramework.Forms;
@@ -16,7 +9,6 @@ namespace BookRentalShop20
 {
     public partial class LoginForm : MetroForm
     {
-        string strConnString = "Data Source=192.168.0.124;Initial Catalog=BookRentalShopDB;Persist Security Info=True;User ID=sa;Password=p@ssw0rd!";
         string mode = "";
         public LoginForm()
         {
@@ -69,7 +61,7 @@ namespace BookRentalShop20
 
             try
             {
-                using (SqlConnection conn = new SqlConnection(strConnString))  // strConnStiring의 출처가 알고싶으면 커서를 두고 정의로 이동 또는 F12를 누른다
+                using (SqlConnection conn = new SqlConnection(Commons.COONSTRING))  // strConnStiring의 출처가 알고싶으면 커서를 두고 정의로 이동 또는 F12를 누른다
                 {
                     conn.Open();
                     SqlCommand cmd = new SqlCommand();
@@ -95,6 +87,7 @@ namespace BookRentalShop20
 
                     if (struserID != "")
                     {
+                        Commons.LOGINUSERID = struserID; // 
                         MetroMessageBox.Show(this, "접속성공", "로그인 성공");
                         this.Close();   // 로그인 성공하면 창을없애고 메인창을 띄움
                     }

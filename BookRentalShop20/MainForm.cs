@@ -57,5 +57,23 @@ private void InitChildForm(Form form, string strFormTitle)
             UserForm form = new UserForm();
             InitChildForm(form, "사용자 관리");
         }
+
+        private void 회원관리MToolStripMenuItem_Click(object sender, System.EventArgs e)
+        {
+            MemberForm form = new MemberForm();
+            InitChildForm(form, "회원관리");
+        }
+
+        private void MainForm_Activated(object sender, System.EventArgs e)
+        {
+            // 메인폼이 활성화됬을때의 메서드
+            LblUserID.Text = Commons.LOGINUSERID;
+        }
+
+        private void 책관리BToolStripMenuItem_Click(object sender, System.EventArgs e)
+        {
+            BooksForm form = new BooksForm();
+            InitChildForm(form, "책 관리");
+        }
     }
 }
