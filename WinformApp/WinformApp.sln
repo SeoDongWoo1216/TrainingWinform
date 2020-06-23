@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChartControlApp", "..\Chart
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookRentalShop20", "..\BookRentalShop20\BookRentalShop20.csproj", "{9C4624F7-8421-435C-88F8-B8BC113AE6B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeShopWPF", "..\WpfApp1\BikeShopWPF.csproj", "{66DC8288-11B4-4D9A-BE2E-30732635D2F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{9C4624F7-8421-435C-88F8-B8BC113AE6B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C4624F7-8421-435C-88F8-B8BC113AE6B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C4624F7-8421-435C-88F8-B8BC113AE6B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66DC8288-11B4-4D9A-BE2E-30732635D2F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66DC8288-11B4-4D9A-BE2E-30732635D2F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66DC8288-11B4-4D9A-BE2E-30732635D2F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66DC8288-11B4-4D9A-BE2E-30732635D2F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
